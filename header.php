@@ -13,14 +13,22 @@
 <body>
   <div class="container"><!--Begin Container Div-->
 
-    <header class="row">
-      <div class="twelve columns">
-        <h1><a href="<?php
-            $url = home_url('/'); echo $url; ?>">
-                <?php bloginfo('name'); ?>
-            </a></h1>
-        <h2><?php bloginfo( 'description'); ?></h2>
-      </div>
+    <header>
+        <div class="row">
+            <div class="twelve columns">
+                <div class="contact-header-bar">
+                <img src="#"><p class="contact-info">601 B Eglin Pkwy NE |</p>
+                <img src="#"><p class="contact-info">7am - 5pm |</p>
+                <img src="#"><p class="contact-info">850 - 586 - 7696 |</p>
+                <img src="#"><p class="contact-info emergency">Emergencies</p>
+            </div>
+
+            <h1>
+                <a href="<?php $url = home_url('/'); echo $url; ?>">
+                    <img src="#"/>Crossroads Animal Clinic
+                </a>
+            </h1>
+            </div>
     </header>
     <div class="row">
         <div class="twelve columns">
