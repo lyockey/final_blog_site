@@ -10,6 +10,7 @@ Text Domain: lauren_yockey_final_template
 
 @import url("stylesheets/normalize.css");
 @import url("stylesheets/skeleton.css");
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Open+Sans');
 
 *{
     color: #000000;
@@ -23,52 +24,45 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-h1 {
-  font-size: 3.0rem;
+/* -------- CONTACT HEADER BAR ----------- */
+
+.contact-header {
+    width: 100%;
+    background-color: #d7d7d7;
+    text-align: right;
+    padding: 0.8em;
+    -webkit-box-shadow: 0 2px 1px 1px #E0E0E0;
+    box-shadow: 0 2px 1px 1px #E0E0E0;
 }
 
-h2 {
-  font-size: 2.5rem;
-}
-
-h3 {
-  font-size: 2.0rem;
-}
-
-h4 {
-  font-size: 1.5rem;
-}
-
-h5 {
-  font-size: 1.2rem;
-}
-
-a {
-  color: red;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.blank-menu-header {
-    text-align: left;
-    margin-top: 40px;
-}
-.blank-menu-header ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    list-style-image: none;
-}
-.blank-menu-header li {
+.contact-info {
     display: inline;
+    color: #34495e;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
 }
-.blank-menu-header ul li a {
-    text-decoration:none;
-    margin: 4px;
-    padding: 5px 0px 5px 40px;
-    font-weight: 300;
-    font-size: 1.1rem;
+
+.contact-info a {
+    text-decoration: none;
+    color: #34495e;
+    font-size: 1em;
 }
-.blank-menu-header ul li a:hover {
-    color: #cccccc;
+
+.contact-info img {
+    width: 1em;
+    padding: 0 1em;
+}
+
+.emergency {
+    background-color: #34495e;
+    padding: 5em 3em 1.2em 2em;
+}
+
+.emergency a {
+    color: #ffffff;
+    font-size: 1.3em;
+}
+
+.emergency a:hover {
+    text-decoration: underline;
 }

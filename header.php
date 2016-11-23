@@ -11,24 +11,23 @@
 
 </head>
 <body>
-  <div class="container"><!--Begin Container Div-->
+  <!--<div class="container"--> <!--Begin Container Div-->
 
     <header>
-        <div class="row">
-            <div class="twelve columns">
-                <div class="contact-header-bar">
-                <img src="#"><p class="contact-info">601 B Eglin Pkwy NE |</p>
-                <img src="#"><p class="contact-info">7am - 5pm |</p>
-                <img src="#"><p class="contact-info">850 - 586 - 7696 |</p>
-                <img src="#"><p class="contact-info emergency">Emergencies</p>
-            </div>
+        <div class="contact-header">
+            <p class="contact-info"><img src="http://www.laurenyockey.com/finalblog2016/wp-content/uploads/2016/11/pindrop.png">601 B Eglin Pkwy NE |</p>
+            <p class="contact-info"><img src="http://www.laurenyockey.com/finalblog2016/wp-content/uploads/2016/11/hours.png">7am - 5pm |</p>
+            <p class="contact-info"><img src="http://www.laurenyockey.com/finalblog2016/wp-content/uploads/2016/11/phone.png">
+                <a href="tel:8505867696">850 - 586 - 7696</a> |</p>
+            <p class="contact-info emergency">
+                <a href="tel:8505867696">Emergencies</a></p>
+        </div>
 
-            <h1>
-                <a href="<?php $url = home_url('/'); echo $url; ?>">
-                    <img src="#"/>Crossroads Animal Clinic
-                </a>
-            </h1>
-            </div>
+        <h1>
+            <a href="<?php $url = home_url('/'); echo $url; ?>">
+                <img src="http://www.laurenyockey.com/finalblog2016/wp-content/uploads/2016/11/logo_paw.png"/>Crossroads Animal Clinic
+            </a>
+        </h1>
     </header>
     <div class="row">
         <div class="twelve columns">
