@@ -17,22 +17,23 @@
         <div class="four columns medical">
             <img src="http://www.laurenyockey.com/finalblog2016/wp-content/uploads/2016/11/medical.png" alt="Medical" title="Medical Services">
             <h2>Medical</h2>
-            <p>From the everyday check-up to the more serious health issues, Crossroads guarantees thorough and experienced medical care.</p>
+            <p id="med-description">From the everyday check-up to the more serious health issues, Crossroads guarantees thorough and experienced medical care.</p>
             <a href="#" class="learn-button" id="medical-more">Learn More</a>
         </div>
         <div class="four columns surgical">
             <img src="http://www.laurenyockey.com/finalblog2016/wp-content/uploads/2016/11/surgical.png" alt="Surgical" title="Surgical Services">
             <h2>Surgical</h2>
-            <p>Our state-of-the-art surgical suite provides a safe environment for Crossroads vets to perform a wide variety of procedures.</p>
+            <p id="surg-description">Our state-of-the-art surgical suite provides a safe environment for Crossroads vets to perform a wide variety of procedures.</p>
             <a href="#" class="learn-button" id="surgical-more">Learn More</a>
         </div>
         <div class="four columns grooming">
             <img src="http://www.laurenyockey.com/finalblog2016/wp-content/uploads/2016/11/grooming.png" alt="Grooming" title="Grooming Services">
             <h2>Grooming</h2>
-            <p>Not only is grooming a great way to keep shedding in check, but it also keeps your pet in good health!</p>
+            <p id="groom-description">Not only is grooming a great way to keep shedding in check, but it also keeps your pet in good health!</p>
             <a href="#" class="learn-button" id="grooming-more">Learn More</a>
         </div>
     </section>
+
     <section class="row">
         <div class="twelve columns special">
             <p>Schedule a grooming session and receive 10% off your next check-up.</p>

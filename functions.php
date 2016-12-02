@@ -1,4 +1,16 @@
 <?php
+
+/* ------------ ENQUEUE JS SCRIPT ------------ */
+function main_js() {
+    wp_enqueue_script(
+        'main-js',
+        get_stylesheet_directory_uri() . '/js/main.js',
+        array('jquery')
+    );
+}
+
+add_action('wp_enqueue_scripts', 'main_js');
+
 /*-------------- Enable Widgets--------------- */
 function blank_widgets_init() {
 
