@@ -16,6 +16,7 @@ Text Domain: lauren_yockey_final_template
     color: #000000;
     font-size: 14px;
     line-height: 1.5em;
+    font-family: 'Cormorant Garamond', cursive;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,8 +25,8 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-/* -------- CONTACT HEADER BAR ----------- */
 
+/* -------- CONTACT HEADER BAR ----------- */
 .contact-header {
     width: 100%;
     background-color: #d7d7d7;
@@ -39,13 +40,14 @@ h1, h2, h3, h4, h5, h6 {
     display: inline;
     color: #34495e;
     font-family: 'Open Sans', sans-serif;
-    font-size: 0.8em;
+    font-size: 1.2rem;
 }
 
 .contact-info a {
     text-decoration: none;
     color: #34495e;
-    font-size: 1em;
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .contact-info img {
@@ -54,15 +56,336 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .emergency {
-    background-color: #34495e;
-    padding: 5em 3em 1.2em 2em;
+    display: block;
+    width: 100%;
 }
 
 .emergency a {
-    color: #ffffff;
-    font-size: 1.3em;
+    color: #e55237;
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
 }
 
 .emergency a:hover {
     text-decoration: underline;
+}
+
+@media (min-width: 700px) {
+    .emergency {
+        display: inline;
+        padding: 5em 3em 1.2em 2em;
+    }
+}
+
+/* ---------------- LOGO & NAV BAR ----------------- */
+#logo {
+    margin-top: 0.5em;
+    width: 50px;
+    padding: 1em 0.5em 0 3em;
+}
+
+#sublogo {
+    font-size: 1.8rem;
+    color: #d7d7d7;
+    font-style: italic;
+    text-transform: lowercase;
+    display: block;
+    margin-left: 10em;
+}
+
+h1 {
+    letter-spacing: 1rem;
+}
+
+h1 a {
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    color: #37babc;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+.menu {
+    display: inline;
+    text-align:right;
+}
+
+.menu li {
+    display: inline;
+    list-style-type: none;
+}
+
+.menu li a {
+    color: #37babc;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* ----------------- SCHEDULE BAR ------------ */
+.schedule-bar {
+    width: 100%;
+    padding: 2rem 0.4rem 0.4rem;
+    background-color: #37babc;
+    border-bottom: 2rem solid rgba(55, 186, 188, 0.7);
+    text-align: center;
+}
+
+#schedule-button {
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 0.5em 1em;
+    color: #ffffff;
+    font-family: 'Cormorant Garamond', cursive;
+    font-size: 2.0rem;
+}
+
+.landing-page {
+    background-color: rgba(55, 186, 188, 0.3);
+}
+
+
+/* --------- BANNER ---------- */
+#banner {
+    width: 100%;
+    height: auto;
+}
+
+
+/* ---- INTRO BLURB ------ */
+.intro {
+    background: url('http://www.laurenyockey.com/finalblog2016/wp-content/uploads/2016/11/blur-bg.png') center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    padding: 3em 0;
+}
+
+.intro img {
+    display: inline;
+}
+
+.intro h2 {
+    color: #34495e;
+    padding-top: 1em;
+    font-size: 3.5rem;
+}
+
+.whitecopy {
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+
+/* ------ SERVICES -------- */
+.medical,
+.surgical,
+.grooming {
+    text-align: center;
+}
+
+.services {
+    padding: 10rem 1rem;
+}
+
+.services h2 {
+    color: #e55237;
+    padding-top: 1em;
+    font-size: 3.5rem;
+}
+
+.services p {
+    margin: 2rem 5rem 5rem;
+    font-size: 1.7rem;
+}
+
+.learn-button {
+    color: #e55237;
+    border: 1px solid #e55237;
+}
+
+.learn-button,
+.read-more-button {
+    font-size: 1.7rem;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+
+.learn-button:hover {
+    color: #ffffff;
+    background-color: #e55237;
+}
+/* -------- SPECIAL --------- */
+.special {
+    background-color: #bbb;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.special p {
+    color: #ffffff;
+    font-size: 3rem;
+    margin: 0 20rem;
+}
+
+
+/* ------- ABOUT ---------- */
+.about {
+    padding: 10rem 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), rgba(0, 0, 0, 0.85) url("http://www.laurenyockey.com/finalblog2016/wp-content/uploads/2016/12/about-bg.png");
+    background-size: cover;
+}
+
+.profile-pic img {
+    width: 95%;
+    margin: 4rem;
+}
+
+.vet-blurb h2,
+.vet-blurb h3 {
+    color: #eaeaea;
+    letter-spacing: 0.5rem;
+}
+
+.vet-blurb p {
+    color: #ffffff;
+    font-size: 1.7rem;
+    margin: 1rem 5rem;
+}
+
+.vet-blurb img {
+    width: 90%;
+    margin: 5rem 0 0;
+}
+
+/* -------- BLOG POSTS ---------- */
+.featured-post {
+    background-color: #71cecf;
+    padding: 20rem;
+    text-align: center;
+}
+
+.featured-post h2,
+.date,
+.featured-post p,
+.fp-title a,
+.featured-post a {
+    color: #ffffff;
+}
+
+.featured-post h2,
+.date {
+    letter-spacing: 0.3rem;
+}
+
+.date,
+.featured-post p {
+    font-size: 1.9rem;
+}
+
+.featured-post p {
+    margin-bottom: 8rem;
+}
+
+.fp-title {
+    border-bottom: 1px solid #ffffff;
+}
+
+.fp-title a {
+    font-size: 2.5rem;
+}
+
+.fp-title a{
+    text-decoration: none;
+}
+
+.read-more-button {
+    border: 1px solid #ffffff;
+}
+
+/* -------- SCHEDULE ------- */
+.schedule {
+    padding: 13rem 2rem 20rem;
+    background-color: #eaeaea;
+}
+
+.schedule h2 {
+    text-align: center;
+    margin-bottom: 4rem;
+    letter-spacing: 0.4rem;
+}
+
+
+/* -------- FOOTER --------- */
+footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), rgba(0, 0, 0, 0.85) url("http://www.laurenyockey.com/finalblog2016/wp-content/uploads/2016/11/footer-bg.png");
+    background-size: cover;
+}
+
+/* ------ FIRST FOOTER WIDGET -------- */
+#footer-paw {
+    text-align: center;
+}
+
+.footer-logo h3 {
+    padding: 4rem 0 0 7rem;
+    color: #71cecf;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.footer-logo h3 img {
+    width: 12%;
+}
+
+#footer-sublogo {
+    color: #ffffff;
+    text-transform: lowercase;
+    padding-left: 6rem;
+}
+
+.social {
+    text-align: center;
+    padding-left: 4rem;
+}
+
+.social img {
+    width: 10%;
+}
+
+
+/* ------- MIDDLE FOOTER WIDGET -------- */
+.widget-middle {
+    margin: 7.5rem 0 0 7rem;
+}
+
+.screen-reader-text {
+    display: none;
+}
+
+#searchsubmit {
+    color: #ffffff;
+}
+
+.searchform input[type="text"] {
+    opacity: 0.8;
+}
+
+
+/* ------- RIGHT FOOTER WIDGET --------- */
+.widget-right h3 {
+    color: #eaeaea;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    margin-top: 5rem;
+}
+
+.widget-right li a {
+    color: #71cecf;
+    font-size: 1.6rem;
 }
