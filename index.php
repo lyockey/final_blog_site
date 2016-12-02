@@ -7,6 +7,11 @@
             <img src="http://www.laurenyockey.com/finalblog2016/wp-content/uploads/2016/11/banner.png" alt="Welcome to Crossroads Animal Clinic" id="banner" />
         </div>
     </section>
+    <div class="row"><div class="twelve columns">
+        <div class="schedule-bar">
+            <a href="#contact" id="schedule-button">Schedule an Appointment</a>
+        </div>
+    </div></div>
     <section class="row">
         <div class="twelve columns intro">
             <h2>Welcome to Crossroads Animal Clinic</h2>
@@ -18,7 +23,7 @@
             <img src="http://www.laurenyockey.com/finalblog2016/wp-content/uploads/2016/11/medical.png" alt="Medical" title="Medical Services">
             <h2>Medical</h2>
             <p id="med-description">From the everyday check-up to the more serious health issues, Crossroads guarantees thorough and experienced medical care.</p>
-            <a href="#" class="learn-button" id="medical-more">Learn More</a>
+                <a href="#" class="learn-button" id="medical-more">Learn More</a>
         </div>
         <div class="four columns surgical">
             <img src="http://www.laurenyockey.com/finalblog2016/wp-content/uploads/2016/11/surgical.png" alt="Surgical" title="Surgical Services">
@@ -78,7 +83,7 @@
             <div class="nav-next alignright"><?php previous_posts_link( 'Newer posts' ); ?></div>
         </div>
     </section>
-    <section class="row schedule">
+    <section class="row schedule" id="schedule">
         <div class="twelve columns">
             <h2>Schedule an Appointment</h2>
             <?php echo do_shortcode("[bupro_appointment]"); ?>

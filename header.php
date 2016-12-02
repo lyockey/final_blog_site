@@ -26,7 +26,7 @@
             <div class="row"><div class="twelve columns">
                 <h1>
                     <a href="<?php $url = home_url('/'); echo $url; ?>">
-                        <img src="http://www.laurenyockey.com/finalblog2016/wp-content/uploads/2016/11/logo_paw.png" id="logo"/>Crossroads <span id="sublogo">Animal Clinic</span>
+                        <img src="http://www.laurenyockey.com/finalblog2016/wp-content/uploads/2016/12/red-paw.png" id="logo"/>Crossroads <span id="sublogo">Animal Clinic</span>
                     </a>
                 </h1>
 
@@ -36,11 +36,6 @@
                         'container_class'  =>  'blank-menu-header'
                     ));
                 ?>
-            </div></div>
-            <div class="row"><div class="twelve columns">
-                <div class="schedule-bar">
-                    <a href="#contact" id="schedule-button">Schedule an Appointment</a>
-                </div>
             </div></div>
             </header>
 <!-- End Header -->

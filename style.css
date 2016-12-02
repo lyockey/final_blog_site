@@ -126,7 +126,7 @@ h1 a {
 /* ----------------- SCHEDULE BAR ------------ */
 .schedule-bar {
     width: 100%;
-    padding: 2rem 0.4rem 0.4rem;
+    padding: 2rem 0 0;
     background-color: #37babc;
     border-bottom: 2rem solid rgba(55, 186, 188, 0.7);
     text-align: center;
@@ -135,10 +135,15 @@ h1 a {
 #schedule-button {
     text-decoration: none;
     border: 1px solid #ffffff;
-    padding: 0.5em 1em;
+    padding: 0.3em 1em;
     color: #ffffff;
     font-family: 'Cormorant Garamond', cursive;
-    font-size: 2.0rem;
+    font-size: 1.7rem;
+}
+
+#schedule-button:hover {
+    background-color: #34495e;
+    border: transparent;
 }
 
 .landing-page {
@@ -200,13 +205,15 @@ h1 a {
     font-size: 1.7rem;
 }
 
-.learn-button {
+.learn-button,
+.schedule-button {
     color: #e55237;
     border: 1px solid #e55237;
 }
 
 .learn-button,
-.read-more-button {
+.read-more-button,
+.schedule-button {
     font-size: 1.7rem;
     text-decoration: none;
     border-radius: 4px;
@@ -214,10 +221,28 @@ h1 a {
 }
 
 
-.learn-button:hover {
+.learn-button:hover,
+.schedule-button:hover {
     color: #ffffff;
     background-color: #e55237;
 }
+
+.medical ul,
+.surgical ul,
+.grooming ul {
+    padding: 2rem;
+}
+
+.medical li,
+.surgical li,
+.grooming li {
+    font-size: 2rem;
+}
+
+.price {
+    color: #e55237;
+}
+
 /* -------- SPECIAL --------- */
 .special {
     background-color: #bbb;
@@ -304,6 +329,11 @@ h1 a {
 
 .read-more-button {
     border: 1px solid #ffffff;
+    background-color: #34495e;
+}
+
+.read-more-button:hover {
+    border: transparent;
 }
 
 /* -------- SCHEDULE ------- */
