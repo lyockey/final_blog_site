@@ -89,6 +89,24 @@
             <?php echo do_shortcode("[bupro_appointment]"); ?>
         </div>
     </section>
+    <section class="row contact">
+        <div class="twelve columns">
+            <h2>Contact Us</h2>
+            <form method="post" action="contact-form.php">
+                <label for="Name">Name:</label>
+                <input type="text" name="Name" id="Name" />
+
+                <label for="Email">Email: </label>
+                <input type="text" name="Email" id="Email" />
+
+                <label for="Message">Message: </label>
+                <textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+
+                <input type="submit" name="submit" value="Submit" class="submit-button" />
+            </form>
+
+        </div>
+    </section>
 <!-- End Section Container -->
 
   <!-- End Loop -->
