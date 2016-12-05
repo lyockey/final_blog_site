@@ -25,6 +25,9 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+p {
+    letter-spacing: 0.2rem;
+}
 
 /* -------- CONTACT HEADER BAR ----------- */
 .contact-header {
@@ -79,6 +82,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ---------------- LOGO & NAV BAR ----------------- */
+.nav-bar {
+    padding: 2rem 0;
+}
+
 #logo {
     margin-top: 0.5em;
     width: 50px;
@@ -108,6 +115,7 @@ h1 a {
 }
 
 .menu {
+    padding-top: 5rem;
     display: inline;
     text-align:right;
 }
@@ -118,24 +126,34 @@ h1 a {
 }
 
 .menu li a {
-    color: #37babc;
+    font-size: 1.85rem;
+    color: #34495e;
     text-decoration: none;
-    text-transform: uppercase;
+    margin-right: 1rem;
 }
+
+.menu li a:hover {
+    color: #e55237;
+}
+
+.nav {
+    padding-top: 5rem;
+}
+
 
 /* ----------------- SCHEDULE BAR ------------ */
 .schedule-bar {
     width: 100%;
-    padding: 2rem 0 0;
-    background-color: #37babc;
-    border-bottom: 2rem solid rgba(55, 186, 188, 0.7);
+    padding: 3rem 0;
+    background-color: #e55237;
     text-align: center;
+    margin-top: -0.5rem;
 }
 
 #schedule-button {
     text-decoration: none;
     border: 1px solid #ffffff;
-    padding: 0.3em 1em;
+    padding: 0.5em 1em;
     color: #ffffff;
     font-family: 'Cormorant Garamond', cursive;
     font-size: 1.7rem;
@@ -180,6 +198,7 @@ h1 a {
 .whitecopy {
     color: #ffffff;
     font-size: 2rem;
+    padding: 0 10rem;
 }
 
 
@@ -196,13 +215,29 @@ h1 a {
 
 .services h2 {
     color: #e55237;
-    padding-top: 1em;
     font-size: 3.5rem;
 }
 
 .services p {
-    margin: 2rem 5rem 5rem;
+    margin: 2rem 1.5rem;
     font-size: 1.7rem;
+}
+
+#med-description {
+    margin-bottom: 7.1rem;
+}
+
+#surg-description {
+    margin-bottom: 4rem;
+}
+
+#groom-description {
+    margin-bottom: 6.5rem;
+}
+
+.surgical h2,
+.grooming h2 {
+    margin-top: -1rem;
 }
 
 .learn-button,
@@ -231,6 +266,7 @@ h1 a {
 .surgical ul,
 .grooming ul {
     padding: 2rem;
+    list-style-type: none;
 }
 
 .medical li,
@@ -253,7 +289,7 @@ h1 a {
 .special p {
     color: #ffffff;
     font-size: 3rem;
-    margin: 0 20rem;
+    margin: 0 15rem;
 }
 
 
@@ -269,10 +305,20 @@ h1 a {
     margin: 4rem;
 }
 
+.vet-blurb h2 {
+    border-bottom: 1px solid #eaeaea;
+    letter-spacing: 0.5rem;
+}
+
 .vet-blurb h2,
 .vet-blurb h3 {
     color: #eaeaea;
-    letter-spacing: 0.5rem;
+}
+
+.vet-blurb h3 {
+    font-size: 2.5rem;
+    margin-left: 5rem;
+    letter-spacing: 1rem;
 }
 
 .vet-blurb p {
@@ -329,23 +375,87 @@ h1 a {
 
 .read-more-button {
     border: 1px solid #ffffff;
-    background-color: #34495e;
+    background-color: transparent;
 }
 
 .read-more-button:hover {
     border: transparent;
+    background-color: #34495e;
 }
 
 /* -------- SCHEDULE ------- */
-.schedule {
+.schedule,
+.contact {
     padding: 13rem 2rem 20rem;
     background-color: #eaeaea;
 }
 
-.schedule h2 {
+.schedule h2,
+.contact h2 {
     text-align: center;
     margin-bottom: 4rem;
     letter-spacing: 0.4rem;
+}
+
+
+/* ------- CONTACT --------- */
+.contact {
+    background-color: #34495e;
+}
+
+.contact h2 {
+    color: #eaeaea;
+}
+
+.contact form {
+    text-align: center;
+}
+
+.contact label {
+    color: #eaeaea;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+}
+
+.contact input[type="text"],
+.contact textarea {
+    width: 30rem;
+    margin-bottom: 4rem;
+}
+
+.contact input[type="submit"] {
+    display: block;
+    margin: auto;
+    color: #eaeaea;
+    background-color: transparent;
+    border: 1px solid #e55237;
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #e55237;
+}
+
+
+/* -------- BLOG PAGE ------ */
+.blog {
+    margin: 2rem;
+}
+
+.blog h2 {
+    color: #34495e;
+    letter-spacing: 0.3rem;
+}
+
+.post-thumbnail img {
+    display: block;
+    width: 60%;
+    height: auto;
+    border-radius: 300px;
+    margin: 3rem auto 5rem;
+}
+
+.body_text {
+    margin-bottom: 10rem;
 }
 
 
@@ -385,7 +495,7 @@ footer {
 }
 
 .social img {
-    width: 10%;
+    width: 15%;
 }
 
 
@@ -408,6 +518,11 @@ footer {
 
 
 /* ------- RIGHT FOOTER WIDGET --------- */
+.widget-right ul {
+    margin-left: -5rem;
+    padding: 0 3rem;
+}
+
 .widget-right h3 {
     color: #eaeaea;
     font-size: 2rem;

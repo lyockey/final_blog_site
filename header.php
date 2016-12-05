@@ -23,19 +23,22 @@
                         <a href="tel:8505867696">Emergencies</a></p>
                 </div>
             </div></div>
-            <div class="row"><div class="twelve columns">
-                <h1>
-                    <a href="<?php $url = home_url('/'); echo $url; ?>">
-                        <img src="http://www.laurenyockey.com/finalblog2016/wp-content/uploads/2016/12/red-paw.png" id="logo"/>Crossroads <span id="sublogo">Animal Clinic</span>
-                    </a>
-                </h1>
-
-                <?php
-                    wp_nav_menu( array(
-                        'sort_column'      =>  'menu_order',
-                        'container_class'  =>  'blank-menu-header'
-                    ));
-                ?>
-            </div></div>
+            <div class="row nav-bar">
+                <div class="six columns">
+                    <h1>
+                        <a href="<?php $url = home_url('/'); echo $url; ?>">
+                            <img src="http://www.laurenyockey.com/finalblog2016/wp-content/uploads/2016/12/red-paw.png" id="logo"/>Crossroads <span id="sublogo">Animal Clinic</span>
+                        </a>
+                    </h1>
+                </div>
+                <div class="six columns nav">
+                    <?php
+                        wp_nav_menu( array(
+                            'sort_column'      =>  'menu_order',
+                            'container_class'  =>  'blank-menu-header'
+                        ));
+                    ?>
+                </div>
+            </div>
             </header>
 <!-- End Header -->

@@ -2,7 +2,7 @@
 
 
 <!-- Begin Section Container -->
-  <section class="row">
+  <section class="row blog">
     <div class="twelve columns">
 
   <!-- BEGIN LOOP -->
