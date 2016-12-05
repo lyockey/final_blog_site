@@ -16,17 +16,12 @@ Template name: Blog Posts
 
                 <h3 class="fp-title blog-post-headings"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 
-                <p class="date"><?php the_date(); ?></p>
+                <p class="date posts-page-date"><?php the_date(); ?></p>
 
-                <?php the_excerpt(__('Continue reading »','example')); ?>
+                <div class="p-content"><?php the_excerpt(__('Continue reading »','example')); ?></div>
 
-                <a href="<?php the_permalink(); ?>" class="read-more-button">Read More</a>
+                <a href="<?php the_permalink(); ?>" class="read-more-button posts-page-read-more">Read More</a>
             <?php endwhile; ?>
-
-        <!-- Navigation -->
-        <div class="navigation">
-            <span class="newer"><?php previous_posts_link(__('« Newer','example')) ?></span> <span class="older"><?php next_posts_link(__('Older »','example')) ?></span>
-        </div>
     <?php else: ?>
         <div class="404-section">
             <p><?php _e('None found.','example'); ?></p>

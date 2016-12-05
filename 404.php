@@ -12,7 +12,7 @@ get_header(); ?>
                     <p>It looks like nothing was found at this location. Maybe try a search?</p>
 
                 <h2>Try searching for what you need:</h2>
-                <?php get_search_form(); ?>
+                <div class="404-search-button"><?php get_search_form(); ?></div>
         </div>
 
         <div class="four columns">
